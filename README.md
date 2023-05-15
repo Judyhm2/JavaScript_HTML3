@@ -31,9 +31,9 @@ From the JavaScript file [chart.js](https://github.com/Judyhm2/JavaScript_HTML3/
 
 Related Files:
 
-The [charts.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/charts.js) file
-The data.js file
-The index.html file.
-The samples.json file.
+- The [charts.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/charts.js) file
+- The data.js file
+- The index.html file.
+- The samples.json file.
 ### Summary
 In summary, all three chart show the results for the biodiversity of the individuals base on their gender, location age and bbtype. These are filters which contain the demographic selection on the test subject id number. The OTU ID, female had the highest volume of ETHNICITY: Caucasian, GENDER: F, AGE: 24, LOCATION: Beaufort/NC, BBTYPE: I, WFREQ: 2
