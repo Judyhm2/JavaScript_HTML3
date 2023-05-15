@@ -13,9 +13,7 @@ Focuses, the following deliverables:
 From the Javascript file [chart.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/chart.js).I created the horizontal bar chart by storing the vaules of X and y from the vaulable OTU labels. Varibale barData holds the sample array vaules from names values. Varibles y-value, xValue and textlabel holds the vaule for otu_ids, otu_labels, and sample_values that were used to plot the bar chart. I sorted the values in descending order. To create the layout for the bar chart that includes a title, I used var barLayout = { title: "Top 10 Bacteria Cultures Found", x: xValue, y: yValue, margin: { l: 100, r: 100, t: 100, b: 100}. To plot the data with the layout, I used
 Plotly.newPlot("bar", barData, barLayout); See images below to view bar and gauge charts.
 
-
-
-
+![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/Del-1.png)
 
 ### Deliverable 2: Create a Bubble Chart
 View the JavaScript file [chart.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/chart.js). I created the bubble chart, Variable bubbleTrace which was used to plot the data with the layout, and then stored in var bubble = document.getElementById("bubble"). To create a variable that holds the samples array, I used
