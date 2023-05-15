@@ -15,11 +15,13 @@ Plotly.newPlot("bar", barData, barLayout); See images below to view bar and gaug
 
 ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Deliverable1.png)
 ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Bar%20chart%20and%20Gauge%20chart.png)
+
 ### Deliverable 2: Create a Bubble Chart
 View the JavaScript file [chart.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/chart.js). I created the bubble chart, Variable bubbleTrace which was used to plot the data with the layout, and then stored in var bubble = document.getElementById("bubble"). To create a variable that holds the samples array, I used
 var bubbleArray = []. To create a variable that filters the samples for the object with the desired sample number, I used var resultBubbleArray = metadata.filter(sampleObj => sampleObj.id == sample) and finally then it held the first sample in the array. var resultBubble = resultBubbleArray[0], To create the trace for the bubble chart, I used the variable var bubbleTrace = { x:[otu_ids], y: [sample_values], text: otu_labels, mode: 'markers', color: sample_values, size: sample_values,; Afterwards the layout for the bubble chart was created with the title: 'Bacteria Cultures Per Sample', showlegend: false, height: 600 and width: 1000; See Images below
 
  ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Deliverable2.png)
+ ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Bubble%20Chart.png)
 
 ### Deliverable 3: Create a Gauge Chart
 From the JavaScript file [chart.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/chart.js) , I created the horizonial gauge chart. For the layout, I used the variable data, Gaugedata = {type: "indicator", mode: "gauge+number+delta",value: result.wfreq, title: "Belly Button Washing Fequency". I then passed and assigned the value to the variable. See image below
