@@ -29,13 +29,14 @@ From the JavaScript file [chart.js](https://github.com/Judyhm2/JavaScript_HTML3/
  ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Deliverable3.png)
 
 ### Deliverable 4: Customize the Dashboard
- 
+ ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Bar%20chart%20and%20Gauge%20chart.png)
+ ![](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/Bubble%20Chart.png)
 
 Related Files:
 
 - The [charts.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/charts.js) file
-- The data.js file
-- The index.html file.
-- The samples.json file.
+- The [data.js](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/data.js) file
+- The [index.html](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/index.html) file.
+- The [samples.json](https://github.com/Judyhm2/JavaScript_HTML3/blob/main/challenge/samples.json) file.
 ### Summary
 In summary, all three chart show the results for the biodiversity of the individuals base on their gender, location age and bbtype. These are filters which contain the demographic selection on the test subject id number. The OTU ID, female had the highest volume of ETHNICITY: Caucasian, GENDER: F, AGE: 24, LOCATION: Beaufort/NC, BBTYPE: I, WFREQ: 2
