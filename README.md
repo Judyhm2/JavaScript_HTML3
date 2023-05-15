@@ -1,15 +1,15 @@
 # JavaScript HTML5,API, JSON
-Overview
+## Overview
 Demographic information was used to visualize the bacterial data for each volunteer.I then used this data to create the following deliverables
 
-Deliverable 1: Create a Horizontal Bar Chart
-Deliverable 2: Create a Bubble Chart
-Deliverable 3: Create a Gauge Chart
-Deliverable 4: Customize the Dashboard JavaScript chart.js holds the function that produces the charts in the following results.
-Results
+- Deliverable 1: Create a Horizontal Bar Chart
+- Deliverable 2: Create a Bubble Chart
+- Deliverable 3: Create a Gauge Chart
+- Deliverable 4: Customize the Dashboard JavaScript chart.js holds the function that produces the charts in the following results.
+## Results
 Focuses, the following deliverables:
 
-Deliverable 1: Create a Horizontal Bar Chart
+- Deliverable 1: Create a Horizontal Bar Chart
 From the Javascript file chart.js.I created the horizontal bar chart by storing the vaules of X and y from the vaulable OTU labels. Varibale barData holds the sample array vaules from names values. Varibles y-value, xValue and textlabel holds the vaule for otu_ids, otu_labels, and sample_values that were used to plot the bar chart. I sorted the values in descending order. To create the layout for the bar chart that includes a title, I used var barLayout = { title: "Top 10 Bacteria Cultures Found", x: xValue, y: yValue, margin: { l: 100, r: 100, t: 100, b: 100}. To plot the data with the layout, I used
 Plotly.newPlot("bar", barData, barLayout); See images below to view bar and gauge charts.
 
